@@ -48,7 +48,7 @@ function sizes(
   const n = productId.slice(-2);
   const list = extras.length ? extras : base;
   return list.map((v, i) => ({
-    id: `v00000${n}-0000-4000-8000-${String(i + 1).padStart(12, "0")}`,
+    id: `b00000${n}-0000-4000-8000-${String(i + 1).padStart(12, "0")}`,
     productId,
     sku: v.sku,
     name: v.name,
@@ -212,7 +212,7 @@ export const products: Product[] = [
     featured: true,
     variants: [
       {
-        id: "v0000008-0000-4000-8000-000000000001",
+        id: "b0000008-0000-4000-8000-000000000001",
         productId: "a0000001-0000-4000-8000-000000000008",
         sku: "HOUSE-RED",
         name: "Red house",
@@ -221,7 +221,7 @@ export const products: Product[] = [
         stock: 40,
       },
       {
-        id: "v0000008-0000-4000-8000-000000000002",
+        id: "b0000008-0000-4000-8000-000000000002",
         productId: "a0000001-0000-4000-8000-000000000008",
         sku: "HOUSE-BLU",
         name: "Blue house",
@@ -230,7 +230,7 @@ export const products: Product[] = [
         stock: 36,
       },
       {
-        id: "v0000008-0000-4000-8000-000000000003",
+        id: "b0000008-0000-4000-8000-000000000003",
         productId: "a0000001-0000-4000-8000-000000000008",
         sku: "HOUSE-GRN",
         name: "Green house",
@@ -239,7 +239,7 @@ export const products: Product[] = [
         stock: 32,
       },
       {
-        id: "v0000008-0000-4000-8000-000000000004",
+        id: "b0000008-0000-4000-8000-000000000004",
         productId: "a0000001-0000-4000-8000-000000000008",
         sku: "HOUSE-YLW",
         name: "Yellow house",
@@ -335,7 +335,7 @@ export const products: Product[] = [
     featured: false,
     variants: [
       {
-        id: "v0000012-0000-4000-8000-000000000001",
+        id: "b0000012-0000-4000-8000-000000000001",
         productId: "a0000001-0000-4000-8000-000000000012",
         sku: "TIE-NVY",
         name: "Navy stripe",
@@ -344,7 +344,7 @@ export const products: Product[] = [
         stock: 50,
       },
       {
-        id: "v0000012-0000-4000-8000-000000000002",
+        id: "b0000012-0000-4000-8000-000000000002",
         productId: "a0000001-0000-4000-8000-000000000012",
         sku: "TIE-MAR",
         name: "Maroon stripe",
@@ -373,7 +373,7 @@ export const products: Product[] = [
     featured: false,
     variants: [
       {
-        id: "v0000013-0000-4000-8000-000000000001",
+        id: "b0000013-0000-4000-8000-000000000001",
         productId: "a0000001-0000-4000-8000-000000000013",
         sku: "CAP-NVY",
         name: "Navy",
@@ -402,7 +402,7 @@ export const products: Product[] = [
     featured: false,
     variants: [
       {
-        id: "v0000014-0000-4000-8000-000000000001",
+        id: "b0000014-0000-4000-8000-000000000001",
         productId: "a0000001-0000-4000-8000-000000000014",
         sku: "BAG-NVY",
         name: "Navy",
